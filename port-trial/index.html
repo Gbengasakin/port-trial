@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="font.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+  	<script type="text/javascript" src="fontawesome/js/all.js"></script>
+<style>
+	html{scroll-behavior: smooth;}
+body{margin:0;font-family:arial}
+.navbar{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);position:sticky;top:0;background-color:white}
+.logo{float:left;padding:20px;}
+.head{overflow:hidden;display:block}
+.head a{float:right;padding:20px;text-decoration:none;color:black;display:none}
+.header{overflow:hidden;display:block}
+.header a{float:right;padding:20px;text-decoration:none;color:black;}
+.header a:hover{background-color:whitesmoke;}
+.sidebar{display:none}
+.headerA{display:none;}
+.home{background-image:url('img/image4.jpg');background-repeat:no-repeat;background-size:100% 100%;}
+.inner{padding-top:100px;color:white;padding-bottom:170px;padding-left:100px;}
+.st{font-size:55px;}
+.btn{padding:10px;background-color:white;border:none;color:black}
+.acontent{text-align:center;width:25%;float:left;}
+.about{text-align:center;margin-bottom:80px;}
+.works{background-color:whitesmoke;clear:left;margin-top:400px;padding:50px}
+.team{width:23%;float:left;margin:10px;box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.btn1{background-color:whitesmoke;color:black;border:none;text-align:center;padding-left:80px;padding-right:70px;padding-top:8px;padding-bottom:8px;margin-left:5px;margin-right:5px}
+.btn1:hover{background-color:grey;}
+.clients{margin-top:750px;}
+.clientb{background-color:grey;padding-top:40px;padding-bottom:40px;float:left;width:25%;font-size:20px;text-align:center;color:white}
+.clientb p{font-size:30px;}
+.wpic{width:24%;margin-right:10px;float:left}
+.wpic1{width:24%;margin-right:10px;float:left}
+.skills{margin-top:800px;background-color:lightgrey;padding:30px;height:260px}
+.skilla{float:left;width:50%}
+.progress{background-color:white;width:100%;text-align:center}
+.pricing{background-color:grey;height:900px;margin-top:0px;}
+th, tr, table, td{border:1px solid black;border-collapse:collapse;text-align:center}
+table{width:31%;float:left;margin:10px;}
+td{padding:20px}
+th{padding:50px;font-size:20px;background-color:black;color:white}
+tr, td{background-color:white;color:black;}
+.btn2{background-color:black;color:white;padding:20px;border:none;cursor:pointer}
+.btn2:hover{background-color:lightgrey;color:black}
+.tb{margin-top:50px}
+.pricinga{text-align:center;padding-top:40px;color:white}
+input{width:90%;padding:15px;}
+.submit{width:20%;background-color:black;color:white;border:none;cursor:pointer}
+.submit:hover{background-color:grey;color:white;}
+@media screen and (max-width:800px){
+.header{display:none}
+.headerA{float:left;background-color:black;width:55%;position:fixed;top:0;left:0;display:none}
+.headerA a{display:block;color:white;text-decoration:none;padding:30px;}
+.header.aa{display:block;float:right;padding:20px}
+.head a{display:block;}
+.inner{padding-top:60px;color:white;padding-bottom:100px;padding-left:20px;}
+.st{font-size:45px;}
+.acontent{width:100%;}
+.about{margin-bottom:50px;}
+.works{padding-top:40px;padding-bottom:70px;padding-left:20px}
+.team{width:100%;margin:0}
+.clientb{width:100%;}
+.wpic1{display:none}
+.wpic{width:50%;margin:0}
+.skilla{width:100%;}
+.skills{height:650px}
+table{width:100%;margin:0;margin-top:10px}
+.pricing{background-color:grey;height:2000px}
+.tb{margin-top:50px}
+.pricinga{text-align:center;padding-top:20px;color:white}
+.submit{width:50%;}
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+<div class="logo"><a href="#" style="text-decoration: none;color: black">L&nbsp;O&nbsp;G&nbsp;O</a></div>
+<div class="header">
+<a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
+<a href="#pricing"><i class="fa fa-usd"></i> PRICING</a>
+<a href="#team"><i class="fa fa-user"></i> TEAM</a>
+<a href="#work"><i class="fa fa-home"></i>WORK</a>
+
+<a href="#about">ABOUT</a>
+
+</div>
+<div class="head">
+<a class="aa "href="#" onclick= "document.getElementById('mysidebar').style.display= 'block';"><i class="fa fa-bars"></i></a>
+</div>
+</div>
+
+<div id="mysidebar"class="headerA">
+<a href="#" onclick= "document.getElementById('mysidebar').style.display= 'none';"><i class="fa fa-close"></i></a>
+<a href="#about">ABOUT</a>
+<a href="#contact">CONTACT</a>
+<a href="#pricing">PRICING</a>
+<a href="#work">WORK</a>
+<a href="#team">TEAM</a>
+</div>
+<div class="home">
+<div class="inner">
+<p class="st"style=""> Start something that matters</p>
+<p> Stop waisting valueable time with projects that just is'nt you</p>
+<button class="btn"> Learn more and start today</button>
+</div>
+
+</div>
+<div class="about"style="padding-top:50px;" id="about">
+<p style="font-size:30px"> About the company</p>
+<p> Key features of our company</p>
+
+</div>
+<div style="">
+<div class="acontent">
+ <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center" style="font-size:70px;"></i>
+<p style="font-size:20px"> Responsive</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+</div>
+<div class="acontent">
+ <i class="fa fa-heart w3-margin-bottom w3-jumbo" style="font-size:70px;"></i>
+<p style="font-size:20px"> Passion</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+</div>
+<div class="acontent">
+<i class="fa fa-diamond w3-margin-bottom w3-jumbo" style="font-size:70px;"></i>
+<p style="font-size:20px"> Design</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+</div>
+<div class="acontent">
+<i class="fa fa-cog w3-margin-bottom w3-jumbo" style="font-size:70px;"></i>
+<p style="font-size:20px"> Support</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+</div>
+</div>
+
+<div class="works" id="work" style="padding-top: 20px;">
+
+<img src="img/image18.jpg" width="100%" height="auto">
+
+
+<p style="font-size:20px">We know design.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore.</p>
+<button style="background-color:black;border:none;padding:13px;color:white"><i class="fa fa-th">&nbsp;</i> View our works</button>
+</div>
+<div class="about"style="padding-top:60px" id="team">
+<p style="font-size:30px"> The Team</p>
+<p> The ones who runs this company</p>
+
+</div>
+<div class="team" >
+
+<img src="img/jb.jpg" alt="jb - copy"width="100%" height="310px">
+<div style="padding:20px;">
+<h3> John Doe</h3>
+<p style="color:grey">CEO & Founder</p>
+<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+<button class="btn1"style=""><i class="fa fa-envelope"></i>  Contact</button>
+
+</div>
+</div>
+<div class="team">
+
+<img src="img/image9.jpg" width="100%" height="310px">
+<div style="padding:20px;">
+<h3> Anja Doe</h3>
+<p style="color:grey">Art Director</p>
+<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+<button class="btn1"style=""><i class="fa fa-envelope"></i>  Contact</button>
+</div>
+</div>
+<div class="team">
+
+<img src="img/image8.jpg" width="100%" height="310px">
+<div style="padding:20px;">
+<h3>Mike Rose</h3>
+<p style="color:grey">Web designer</p>
+<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+<button class="btn1"style=""><i class="fa fa-envelope"></i>  Contact</button>
+</div>
+</div>
+
+<div class="team">
+
+<img src="img/woman-wearing-denim-jacket-mask_23-2148859625.jpg" width="100%" height="310px">
+<div style="padding:20px;">
+<h3>Dan Star</h3>
+<p style="color:grey">Designer</p>
+<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+<button class="btn1"style=""><i class="fa fa-envelope"></i>  Contact</button>
+</div>
+</div>
+<div class="clients">
+<div class="clientb">
+<p>14+</p>
+Partners
+</div>
+<div class="clientb">
+<p>55+</p>
+Projects Done
+</div>
+<div class="clientb">
+<p>89+</p>
+Happy Clients
+</div>
+<div class="clientb">
+<p>150+</p>
+meetings
+</div>
+</div>
+<div class="about"style="margin-top:1070px" id="work">
+<p style="font-size:30px"> Our Work</p>
+<p>What we've done for people</p>
+
+</div>
+<div>
+<div class="wpic">
+<img src="img/drake.png" width="100%" height="310px">
+</div>
+<div class="wpic">
+<img src="img/image8.jpg" width="100%" height="310px">
+</div>
+<div class="wpic">
+<img src="img/image9.jpg" width="100%" height="310px">
+</div>
+<div class="wpic1" >
+<img src="img/image18.jpg" width="100%" height="310px">
+</div>
+
+
+</div>
+<div>
+<div class="wpic">
+<img src="img/image19.jpg" width="100%" height="310px">
+</div>
+<div class="wpic">
+<img src="img/jb.jpg" width="100%" height="310px">
+</div>
+<div class="wpic">
+<img src="img/woman-wearing-denim-jacket-mask_23-2148859625.jpg" width="100%" height="310px">
+</div>
+<div class="wpic1"  >
+<img src="img/How-to-Shop-for-Mens-Clothes-banner.jpg" width="100%" height="310px">
+</div>
+
+
+</div>
+<div class="skills">
+<div class="skilla" >
+<p style="font-size:30px">Our Skills.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+tempor incididunt ut labore et dolore.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+tempor incididunt ut labore et dolore.</p>
+</div>
+<div class="skilla" >
+<p> Photography</p>
+<div class="progress"><div style="background-color:grey;width:90%;padding:3px">90%</div></div>
+<p> Web Design</p>
+<div class="progress"><div style="background-color:grey;width:85%;padding:3px"> 85%</div></div>
+<p> Photoshop</p>
+<div class="progress"><div style="background-color:grey;width:85%;padding:3px"> 75%</div></div>
+
+</div>
+</div>
+<div class="pricing" style="" id="pricing">
+<div class="pricinga"style="">
+<p style="font-size:30px"> Pricing</p>
+Choose a pricing plan that fits your need
+</div>
+<div class="tb"style="">
+<table >
+<th class="">Basic</th>
+<tr>
+<td><b>10GB</b> Storage
+</td></tr>
+<tr>
+<td><b>10</b> Emails</td>
+</tr>
+<tr>
+<td><b>10</b> Domains</td>
+</tr>
+<tr>
+<td><b>Endless</b> Support</td>
+</tr>
+<tr>
+<td style="padding:10px;"><p style="padding:0px;font-size:35px;padding-bottom:0">$ 1 0</p>
+<p style="color:lightgrey">per month</p></td>
+</tr>
+<tr>
+<td style="background-color:whitesmoke"> <button class="btn2">Sign in</button>
+
+</table>
+<table  >
+<th style="background-color:red">Pro</th>
+<tr>
+<td><b>25GB</b> Storage
+</td></tr>
+<tr>
+<td><b>25</b> Emails</td>
+</tr>
+<tr>
+<td><b>25</b> Domains</td>
+</tr>
+<tr>
+<td><b>Endless</b> Support</td>
+</tr>
+<tr>
+<td style="padding:10px;"><p style="padding:0px;font-size:35px;padding-bottom:0">$ 2 5</p>
+<p style="color:lightgrey">per month</p></td>
+</tr>
+<tr>
+<td style="background-color:whitesmoke"> <button class="btn2">Sign in</button>
+
+</table>
+<table>
+<th class="">Premium</th>
+<tr>
+<td><b>50GB</b> Storage
+</td></tr>
+<tr>
+<td><b>50</b> Emails</td>
+</tr>
+<tr>
+<td><b>50</b> Domains</td>
+</tr>
+<tr>
+<td><b>Endless</b> Support</td>
+</tr>
+<tr>
+<td style="padding:10px;"><p style="padding:0px;font-size:35px;padding-bottom:0">$ 5 0</p>
+<p style="color:lightgrey">per month</p></td>
+</tr>
+<tr>
+<td style="background-color:whitesmoke"> <button class="btn2"style="">Sign in</button>
+
+</table>
+
+</div>
+
+</div>
+<div style="background-color:whitesmoke;height:650px" id="contact">
+<div class="pricinga"style="color:black">
+<p style="font-size:30px">Contact</p>
+Lets get in touch. Send us a message:
+</div>
+<div style="margin:30px;margin-left:30px">
+<p> Chicago, US</p>
+
+ <p>Phone: +00 151515</p>
+
+ <p>Email: mail@mail.com</p>
+</div>
+<div style="margin:30px;margin-left:30px">
+<input type="text" placeholder="Name"><br><br>
+<input type="text" placeholder="Email"><br><br>
+<input type="text" placeholder="Subject"><br><br>
+<input type="text" placeholder="Message"><br><br>
+<input type="submit" value="SEND MESSAGE" class="submit">
+</div>
+</div>
+<footer style="background-color:black;padding:40px;color:white;text-align:center">
+<button style="background-color:white;color:black;border:none;padding:10px"><a href="#" style="text-decoration:none;color:black"> Back to top</a></button><br>
+<img src="img/facebooklogo.png" alt="facebooklogo" width="2%" height="auto" class=""style="cursor:pointer;">
+<img src="img/instagramlogo.png" alt="instagramlogo" width="2%" height="auto" style="cursor:pointer;">
+<img src="img/twitterlogo.png" alt="twitterlogo" width="2%" height="auto" style="cursor:pointer;">
+<img src="img/youtubelogo.png" alt="youtubelogo" width="4%" height="auto" style="cursor:pointer;">
+<p> Powered by Gbenga Olonisakin</p>
+
+</footer>
+</body>
